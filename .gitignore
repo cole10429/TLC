@@ -1,0 +1,11 @@
+# Local-only quote work artifacts
+source-extracted/
+audit-report.md
+email-draft.md
+*.docx
+*.docx.bak-*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

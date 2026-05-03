@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Cottage Renovation Quote — Hilary Smee | Tender Loving Carpentry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+<style>
+  /* ─────────────────────────  Design tokens  ───────────────────────── */
+  :root {
+    /* Warm neutral palette tuned to TLC Logo.png (sampled this build) */
+    --color-bg:           #FAF8F4;
+    --color-bg-tint:      #F3EFE8;
+    --color-surface:      #FFFFFF;
+    --color-text:         #1F1B17;
+    --color-muted:        #6B6358;
+    --color-soft:         #97907F;
+    --color-border:       #E5DFD6;
+    --color-border-soft:  #F0EBE1;
+    --color-accent:       #5C4530;
+    --color-accent-warm:  #876A4B;
+    --color-accent-soft:  #C5A988;
+    --color-accent-bg:    #F5EFE5;
+
+    --font-sans:    "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+
+    --text-xs:    0.8125rem;
+    --text-sm:    0.9375rem;
+    --text-base:  1.0625rem;
+    --text-lg:    1.25rem;
+    --text-xl:    1.5rem;
+    --text-2xl:   2rem;
+    --text-3xl:   clamp(2rem, 1.5rem + 2vw, 3.25rem);
+    --text-hero:  clamp(2.5rem, 1.5rem + 4vw, 4.5rem);
+
+    --leading-body: 1.65;
+    --leading-tight: 1.25;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-7: 3rem;
+    --space-8: 4rem;
+    --space-9: 6rem;
+
+    --radius-sm: 4px;
+    --radius:    10px;
+    --radius-lg: 16px;
+
+    --shadow-card:     0 1px 2px rgba(31, 27, 23, 0.04), 0 4px 14px rgba(31, 27, 23, 0.05);
+    --shadow-card-hov: 0 2px 4px rgba(31, 27, 23, 0.06), 0 12px 32px rgba(31, 27, 23, 0.08);
+
+    --width-content: 740px;
+    --width-wide:    1120px;
+
+    --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+    --duration:  220ms;
+  }
+
+  /* ─────────────────────────  Reset  ───────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: var(--leading-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: var(--color-accent); text-decoration: none; }
+  a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+  h1, h2, h3, h4 { margin: 0; line-height: var(--leading-tight); font-weight: 600; letter-spacing: -0.01em; }
+  p { margin: 0; }
+
+  .wrap        { width: 100%; max-width: var(--width-content); margin: 0 auto; padding: 0 var(--space-5); }
+  .wrap-wide   { width: 100%; max-width: var(--width-wide);    margin: 0 auto; padding: 0 var(--space-5); }
+
+  /* ─────────────────────────  Header  ───────────────────────── */
+  .site-header {
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-5) 0;
+  }
+  .site-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-5);
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  .brand__mark {
+    width: 64px;
+    height: 48px;
+    object-fit: contain;
+  }
+  .brand__name {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: var(--text-lg);
+    letter-spacing: -0.01em;
+    color: var(--color-text);
+  }
+  .brand__tag {
+    font-size: var(--text-xs);
+    color: var(--color-muted);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-top: 2px;
+  }
+  .header__meta {
+    text-align: right;
+    font-size: var(--text-xs);
+    color: var(--color-muted);
+    line-height: 1.5;
+  }
+  .header__meta strong { color: var(--color-text); font-weight: 600; display: block; font-size: var(--text-sm); }
+
+  /* ─────────────────────────  Hero  ───────────────────────── */
+  .hero {
+    padding: var(--space-9) 0 var(--space-7);
+    background:
+      radial-gradient(ellipse 60% 80% at 80% 0%, var(--color-accent-bg) 0%, transparent 70%),
+      var(--color-bg);
+  }
+  .hero__eyebrow {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+  }
+  .hero__title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: var(--text-hero);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: var(--color-text);
+  }
+  .hero__title em {
+    font-style: italic;
+    color: var(--color-accent-warm);
+  }
+  .hero__meta {
+    margin-top: var(--space-6);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-5);
+  }
+  @media (min-width: 640px) {
+    .hero__meta { grid-template-columns: repeat(3, 1fr); }
+  }
+  .hero__meta dt {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-1);
+  }
+  .hero__meta dd {
+    margin: 0;
+    font-size: var(--text-base);
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  /* ─────────────────────────  At-a-glance card  ───────────────────────── */
+  .glance {
+    margin: 0 auto var(--space-8);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    box-shadow: var(--shadow-card);
+    position: relative;
+  }
+  .glance::before {
+    content: "";
+    position: absolute;
+    left: var(--space-6);
+    top: -1px;
+    width: 44px;
+    height: 3px;
+    background: var(--color-accent);
+    border-radius: 0 0 3px 3px;
+  }
+  .glance__title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-2);
+  }
+  .glance__lead {
+    color: var(--color-muted);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-5);
+  }
+  .glance__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  @media (min-width: 600px) {
+    .glance__grid { grid-template-columns: 1fr 1fr; }
+  }
+  .glance__item {
+    padding: var(--space-4);
+    background: var(--color-bg-tint);
+    border-radius: var(--radius);
+  }
+  .glance__item-label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-muted);
+    font-weight: 600;
+  }
+  .glance__item-value {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: var(--text-2xl);
+    color: var(--color-text);
+    line-height: 1;
+    margin-top: var(--space-2);
+  }
+  .glance__note {
+    margin-top: var(--space-5);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--color-border-soft);
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    line-height: 1.6;
+  }
+  .glance__note strong { color: var(--color-text); font-weight: 600; }
+
+  /* ─────────────────────────  Section group  ───────────────────────── */
+  .section { padding: var(--space-7) 0; }
+  .section + .section { border-top: 1px solid var(--color-border-soft); }
+  .section__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+    flex-wrap: wrap;
+  }
+  .section__title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: var(--text-2xl);
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .section__count {
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ─────────────────────────  Scope cards  ───────────────────────── */
+  .scope-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-3);
+  }
+  .scope {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: border-color var(--duration) var(--ease-out),
+                box-shadow var(--duration) var(--ease-out);
+  }
+  .scope:hover { border-color: var(--color-accent-soft); box-shadow: var(--shadow-card); }
+  .scope[open] { border-color: var(--color-accent-soft); box-shadow: var(--shadow-card); }
+  .scope--optional {
+    border-style: dashed;
+    border-color: var(--color-accent-soft);
+    background: var(--color-accent-bg);
+  }
+  .scope__summary {
+    list-style: none;
+    cursor: pointer;
+    padding: var(--space-5);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-4);
+    align-items: center;
+  }
+  .scope__summary::-webkit-details-marker { display: none; }
+  .scope__summary:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: -2px;
+    border-radius: var(--radius);
+  }
+  .scope__name {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: var(--text-lg);
+    color: var(--color-text);
+    letter-spacing: -0.005em;
+  }
+  .scope__name-tag {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    padding: 3px var(--space-2);
+    border-radius: var(--radius-sm);
+    margin-right: var(--space-3);
+    vertical-align: 2px;
+    font-weight: 700;
+  }
+  .scope__costs {
+    text-align: right;
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    line-height: 1.45;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-end;
+  }
+  .scope__costs strong { color: var(--color-text); font-weight: 600; }
+  .scope__caret {
+    display: inline-block;
+    transition: transform var(--duration) var(--ease-out);
+    color: var(--color-muted);
+    margin-top: var(--space-1);
+    font-size: 0.75rem;
+  }
+  .scope[open] .scope__caret { transform: rotate(180deg); }
+
+  .scope__body {
+    padding: 0 var(--space-5) var(--space-5);
+    border-top: 1px solid var(--color-border-soft);
+  }
+  .scope__note {
+    background: rgba(135, 106, 75, 0.08);
+    border-left: 3px solid var(--color-accent-warm);
+    padding: var(--space-3) var(--space-4);
+    margin: var(--space-4) 0;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  }
+  .scope__bullets {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-4) 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .scope__bullets li {
+    position: relative;
+    padding-left: var(--space-5);
+    font-size: var(--text-sm);
+    line-height: 1.55;
+    color: var(--color-text);
+  }
+  .scope__bullets li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 8px;
+    height: 1px;
+    background: var(--color-accent-warm);
+  }
+  .scope__bullets ol {
+    list-style: none;
+    margin: var(--space-2) 0 0;
+    padding-left: var(--space-4);
+    font-size: inherit;
+    color: var(--color-text);
+    line-height: 1.55;
+  }
+  .scope__bullets ol li { padding-left: 0; }
+  .scope__bullets ol li::before { display: none; }
+  .scope__name--optional::before {
+    content: "OPTIONAL";
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    padding: 3px var(--space-2);
+    border-radius: var(--radius-sm);
+    margin-right: var(--space-3);
+    vertical-align: 2px;
+    font-weight: 700;
+  }
+
+  /* ─────────────────────────  Reference panels  ───────────────────────── */
+  .panels {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  @media (min-width: 720px) {
+    .panels { grid-template-columns: repeat(2, 1fr); }
+  }
+  .panel {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-5);
+  }
+  .panel__title {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--space-3);
+  }
+  .panel__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+  .panel__items li {
+    padding: var(--space-1) 0;
+    border-bottom: 1px solid var(--color-border-soft);
+  }
+  .panel__items li:last-child { border-bottom: none; }
+
+  /* ─────────────────────────  Terms list  ───────────────────────── */
+  .terms-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-4);
+    counter-reset: tcount;
+  }
+  .terms-list li {
+    counter-increment: tcount;
+    padding-left: var(--space-7);
+    position: relative;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.65;
+  }
+  .terms-list li::before {
+    content: counter(tcount, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: var(--text-base);
+    color: var(--color-accent);
+  }
+
+  /* ─────────────────────────  Grand Total block  ───────────────────────── */
+  .grand-total {
+    margin: var(--space-7) 0 var(--space-8);
+    background: var(--color-text);
+    color: var(--color-bg);
+    border-radius: var(--radius-lg);
+    padding: var(--space-7) var(--space-6);
+    position: relative;
+    overflow: hidden;
+  }
+  .grand-total::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 600px 240px at 100% 0%, rgba(135, 106, 75, 0.25) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .grand-total__inner {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .grand-total__title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: var(--text-2xl);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--color-accent-soft);
+    margin: 0 0 var(--space-5);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: left;
+  }
+  .grand-total__rows {
+    display: grid;
+    gap: 0;
+    font-variant-numeric: tabular-nums;
+  }
+  .grand-total__row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-5);
+    align-items: baseline;
+    padding: var(--space-4) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    font-size: var(--text-base);
+  }
+  .grand-total__row:first-child { padding-top: 0; }
+  .grand-total__row--final {
+    border-bottom: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.55);
+    margin-top: var(--space-2);
+    padding-top: var(--space-5);
+  }
+  .grand-total__label {
+    color: rgba(250, 248, 244, 0.88);
+    font-weight: 500;
+    font-size: var(--text-base);
+    letter-spacing: 0.01em;
+  }
+  .grand-total__value {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 500;
+    color: var(--color-bg);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .grand-total__row--final .grand-total__label {
+    font-weight: 700;
+    color: var(--color-bg);
+    font-size: var(--text-lg);
+  }
+  .grand-total__row--final .grand-total__value {
+    font-size: clamp(1.5rem, 1rem + 1.5vw, 2.25rem);
+    color: var(--color-accent-soft);
+    font-weight: 500;
+  }
+
+  /* ─────────────────────────  Acceptance & Agreement  ───────────────────────── */
+  .agreement__lead {
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--color-text);
+    margin-bottom: var(--space-6);
+    max-width: 680px;
+  }
+  .agreement__optional {
+    background: var(--color-accent-bg);
+    border: 1px solid var(--color-accent-soft);
+    border-radius: var(--radius);
+    padding: var(--space-5);
+    margin-bottom: var(--space-7);
+  }
+  .agreement__optional-title {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: var(--space-4);
+    letter-spacing: 0.01em;
+  }
+  .agreement__option {
+    display: grid;
+    grid-template-columns: auto auto auto 1fr;
+    gap: var(--space-3);
+    align-items: baseline;
+    padding: var(--space-3) 0;
+    font-size: var(--text-sm);
+    border-bottom: 1px solid var(--color-border-soft);
+  }
+  .agreement__option:last-child { border-bottom: none; }
+  .agreement__check {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: var(--text-base);
+    color: var(--color-accent);
+    letter-spacing: -0.05em;
+  }
+  .agreement__option-label {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--color-text);
+    min-width: 110px;
+  }
+  .agreement__arrow {
+    color: var(--color-accent-warm);
+    font-weight: 500;
+  }
+  .agreement__option-total {
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--color-text);
+    font-variant-numeric: tabular-nums;
+  }
+  .agreement__signatures {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+    margin-top: var(--space-6);
+  }
+  @media (min-width: 720px) {
+    .agreement__signatures { grid-template-columns: 1fr 1fr; gap: var(--space-7); }
+  }
+  .agreement__signer {
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-4);
+  }
+  .agreement__role {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+  }
+  .agreement__line-row {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+    flex-wrap: nowrap;
+  }
+  .agreement__line-label {
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .agreement__line {
+    flex: 1;
+    border-bottom: 1px solid var(--color-text);
+    height: 1.6em;
+    min-width: 80px;
+  }
+  .agreement__line--short {
+    flex: 0 0 110px;
+  }
+  .agreement__printname {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    margin-top: var(--space-2);
+  }
+  .agreement__note {
+    margin-top: var(--space-6);
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    text-align: center;
+    font-style: italic;
+  }
+
+  /* ─────────────────────────  CTA  ───────────────────────── */
+  .cta {
+    text-align: center;
+    padding: var(--space-7) var(--space-5);
+    background: var(--color-accent-bg);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-8);
+  }
+  .cta__title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: var(--text-2xl);
+    margin: 0 0 var(--space-3);
+    letter-spacing: -0.01em;
+  }
+  .cta__text {
+    color: var(--color-muted);
+    font-size: var(--text-sm);
+    max-width: 480px;
+    margin: 0 auto var(--space-5);
+  }
+  .cta__buttons {
+    display: flex;
+    gap: var(--space-3);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+    border-radius: var(--radius);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all var(--duration) var(--ease-out);
+    cursor: pointer;
+    line-height: 1;
+  }
+  .btn--primary { background: var(--color-accent); color: var(--color-bg); border-color: var(--color-accent); }
+  .btn--primary:hover {
+    background: var(--color-accent-warm);
+    border-color: var(--color-accent-warm);
+    transform: translateY(-1px);
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(92, 69, 48, 0.3);
+  }
+  .btn--secondary { background: transparent; color: var(--color-accent); border-color: var(--color-accent); }
+  .btn--secondary:hover { background: var(--color-accent); color: var(--color-bg); text-decoration: none; }
+  .btn:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+
+  /* ─────────────────────────  Footer  ───────────────────────── */
+  .site-footer {
+    background: var(--color-text);
+    color: var(--color-bg);
+    padding: var(--space-7) 0;
+    margin-top: var(--space-8);
+  }
+  .site-footer__inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    align-items: center;
+    text-align: center;
+  }
+  .site-footer__tagline {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: var(--text-xl);
+    color: var(--color-accent-soft);
+    margin: 0;
+  }
+  .site-footer__details {
+    font-size: var(--text-xs);
+    color: rgba(250, 248, 244, 0.65);
+    line-height: 1.6;
+    max-width: 520px;
+  }
+  .site-footer__details strong { color: var(--color-bg); font-weight: 600; }
+
+  /* ─────────────────────────  Print  ───────────────────────── */
+  @media print {
+    body { background: white; color: black; font-size: 10pt; }
+    .site-header, .site-footer { background: white; color: black; }
+    .site-footer__tagline { color: black; }
+    .cta, .grand-total::before { display: none; }
+    .scope, .panel, .glance { box-shadow: none; border-color: #ccc; break-inside: avoid; }
+    details > summary { list-style: none; cursor: default; pointer-events: none; }
+    details:not([open]) > .scope__body { display: block; }
+    details > summary::-webkit-details-marker { display: none; }
+    .scope__caret { display: none; }
+    .grand-total { background: #f5efe5; color: #1F1B17; border: 2px solid #5C4530; }
+    .grand-total__title, .grand-total__label { color: #1F1B17; }
+    .grand-total__row { border-bottom-color: #ccc; }
+    .grand-total__row--final { border-top-color: #5C4530; }
+    .grand-total__row--final .grand-total__value { color: #5C4530; }
+    a { color: black; text-decoration: underline; }
+    .hero { padding: var(--space-5) 0; background: white; }
+  }
+</style>
+</head>
+
+<body>
+
+<!-- ───────────────  Header  ─────────────── -->
+<header class="site-header">
+  <div class="wrap-wide site-header__inner">
+    <a class="brand" href="https://www.tenderlovingcarpentry.ca/" target="_blank" rel="noopener">
+      <img class="brand__mark" src="assets/tlc-logo.png" alt="Tender Loving Carpentry — wood shield emblem" width="64" height="48">
+      <div>
+        <div class="brand__name">Tender Loving Carpentry</div>
+        <div class="brand__tag">Every Home needs some TLC</div>
+      </div>
+    </a>
+    <div class="header__meta">
+      <strong>Quote</strong>
+      02/05/2026
+    </div>
+  </div>
+</header>
+
+<!-- ───────────────  Hero  ─────────────── -->
+<section class="hero">
+  <div class="wrap">
+    <p class="hero__eyebrow">Project Quote</p>
+    <h1 class="hero__title">Cottage <em>Renovation</em></h1>
+    <dl class="hero__meta">
+      <div>
+        <dt>Customer</dt>
+        <dd>Hilary Smee</dd>
+      </div>
+      <div>
+        <dt>Property</dt>
+        <dd>1865 North Muldrew Lake Road, Gravenhurst</dd>
+      </div>
+      <div>
+        <dt>Quote</dt>
+        <dd>02/05/2026</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ───────────────  At-a-glance  ─────────────── -->
+<div class="wrap">
+  <div class="glance">
+    <h2 class="glance__title">At a glance</h2>
+    <p class="glance__lead">A multi-section cottage renovation — bathrooms, kitchen, bedrooms, basement, and an optional bedroom-wall reconfiguration. Click any section below to expand the full scope.</p>
+    <div class="glance__grid">
+      <div class="glance__item">
+        <div class="glance__item-label">Scope</div>
+        <div class="glance__item-value">16 sections</div>
+      </div>
+      <div class="glance__item">
+        <div class="glance__item-label">Composition</div>
+        <div class="glance__item-value">15 base + 1 optional</div>
+      </div>
+    </div>
+    <p class="glance__note"><strong>How to read the prices:</strong> Materials are shown <em>HST included</em>. Labour is shown as a base figure with <em>+ HST</em> beside it. The Grand Total at the bottom of the page reflects this same structure.</p>
+  </div>
+</div>
+
+<!-- ───────────────  Scope  ─────────────── -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 class="section__title">Scope of work</h2>
+      <span class="section__count">15 base + 1 optional</span>
+    </div>
+
+    <ul class="scope-list">
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Demolition:</span>
+          <span class="scope__costs"><strong>Materials: $1,500.00</strong><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>Disposal costs have a $1,500 waste allowance for entire job. Any costs exceeding this will be billed additionally, at cost, to the homeowner.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Front Entry and hallway:</span>
+          <span class="scope__costs"><strong>Materials: $4,803.97</strong><span>Labour: $8,640 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of existing tile in front entry and associated flooring materials within this area.</li>
+            <li>To remove and dispose of existing bifold doors within front entry and hallway area.</li>
+            <li>To supply and install Schluter Ditra decoupling membrane in front entry and hallway to accept tile.</li>
+            <li>To install approximately 245 sq. ft. of tile and grout supplied by homeowner in front entryway and hallway.</li>
+            <li>To remove and reinstall existing baseboards in front entry/hallway.</li>
+            <li>To supply and install 8&rdquo; MDF shiplap feature wall in entryway.</li>
+            <li>To supply and install 6-panel pine doors and door stop in place of existing bifold doors in this area.</li>
+            <li>To supply and install black passage handles and hinges for doors within area.</li>
+            <li>To supply and install clear coat finish to pine doors.</li>
+            <li>To install homeowner supplied paint on shiplap feature wall.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Bedroom #1:</span>
+          <span class="scope__costs"><strong>Materials: $685.07</strong><span>Labour: $1,440 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of existing closet bifold door, wall light, and window blinds.</li>
+            <li>To supply and install all materials to complete minor drywall patching and sanding to make walls paint ready.</li>
+            <li>To supply and install new 6 panel pine door and door stop in place of existing bifold closet door.</li>
+            <li>To supply and install black privacy hardware and hinges on new closet door and bedroom door.</li>
+            <li>To install 2 homeowner supplied window blinds in bedroom.</li>
+            <li>To install homeowner supplied paint on bedroom walls only.</li>
+            <li>To supply and install clear coat finish to pine closet door.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Bedroom #2:</span>
+          <span class="scope__costs"><strong>Materials: $432.73</strong><span>Labour: $960 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of existing window blinds and hardware.</li>
+            <li>To supply and install all materials to complete minor drywall patching and sanding to make walls paint ready.</li>
+            <li>To install homeowner supplied paint on bedroom walls only.</li>
+            <li>To supply and install black hardware (pulls, handles, hinges) on existing cabinet in bedroom.</li>
+            <li>To supply and install black privacy hardware and hinges on existing bedroom door.</li>
+            <li>To install homeowner supplied blinds in bedroom.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Main Bathroom:</span>
+          <span class="scope__costs"><strong>Materials: $4,158.85</strong><span>Labour: $11,520 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of:
+              <ol>
+                <li>1. Existing bathroom tile floor \ baseboard</li>
+                <li>2. Existing vanity countertop</li>
+                <li>3. Mirror and bulkhead above vanity</li>
+                <li>4. Bathtub surround</li>
+                <li>5. Bulkhead above bathtub</li>
+                <li>6. Bathroom accessories \ hardware \ toilet</li>
+              </ol>
+            </li>
+            <li>To supply and install all materials to frame out shower partition wall to maximize usable shower area within existing bathroom layout.</li>
+            <li>To supply and install all materials to drywall above shower where bulkhead was removed, and complete any drywall patching and sanding in bathroom to make paint ready.</li>
+            <li>To supply and install Schluter 30&rdquo;x60&rdquo; shower base with offset left hand matte black drain grate.</li>
+            <li>To supply and install 12&rdquo;x20&rdquo; shower niche.</li>
+            <li>To install homeowner supplied shower valve and trim.</li>
+            <li>To supply and install plywood backing and Schluter waterproofing system in shower area.</li>
+            <li>To install homeowner supplied tile &amp; grout in shower, approximately 20 sq. ft. of shower floor tile (2&rdquo;x2&rdquo; or less) and 100 sq. ft. of shower wall tile.</li>
+            <li>To install homeowner supplied marble sills for niche and shower threshold.</li>
+            <li>To supply and install silicone sealant in shower where required.</li>
+            <li>To supply and install Schluter decoupling membrane on bathroom floor to accept tile.</li>
+            <li>To install approximately 45 sq. ft. of homeowner supplied bathroom floor tile &amp; grout.</li>
+            <li>To install homeowner supplied toilet.</li>
+            <li>To install homeowner supplied bathroom hardware (toilet paper holder, towel bar, etc).</li>
+            <li>To supply and install pine baseboard in bathroom.</li>
+            <li>To supply and install clear coat on installed baseboard.</li>
+            <li>To install homeowner supplied vanity faucets \ drains.</li>
+            <li>To supply and install black privacy locks and hinges on bathroom doors.</li>
+            <li>To supply and install black vanity door \ drawer pulls.</li>
+            <li>To install homeowner supplied wall and ceiling paint in bathroom.</li>
+            <li>To install homeowner supplied shower rod.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Kitchen:</span>
+          <span class="scope__costs"><strong>Materials: $1,463.55</strong><span>Labour: $6,720 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of approximately 145 sq. ft. of tile on kitchen floor.</li>
+            <li>To remove and dispose of approximately 42 sq. ft. of tile backsplash.</li>
+            <li>To supply and install approximately 145 sq. ft. of Schluter Ditra decoupling membrane on kitchen floor for tile installation.</li>
+            <li>To supply and install protective coverings to kitchen countertop to protect during backsplash installation.</li>
+            <li>To supply and install drywall as required in kitchen backsplash area to prepare surfaces for tile installation.</li>
+            <li>To install approximately 42 sq. ft. of homeowner supplied tile and grout on kitchen backsplash.</li>
+            <li>To supply and install Schluter edge trim on backsplash to terminate tile where necessary.</li>
+            <li>To supply and install silicone and caulking at tile transitions and termination points as required.</li>
+            <li>To install approximately 145 sq. ft. of homeowner supplied tile and grout on kitchen floor.</li>
+            <li>To install homeowner supplied cabinetry and millwork for rectangular kitchen island.</li>
+            <li>To supply and install black cabinet pulls for kitchen cabinetry, including existing 28 pulls. Island cabinet hardware to be installed based on final layout and number of doors/drawers, billed separately.</li>
+            <li>To install homeowner supplied kitchen faucet, drain assembly, and connect to existing rough-in plumbing.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Fireplace Tile:</span>
+          <span class="scope__costs"><strong>Materials: $268.00</strong><span>Labour: $1,440 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To temporarily move fireplace unit as required to allow access for tile installation on fireplace hearth area.</li>
+            <li>To remove and dispose of approximately 35 sq. ft. of tile on fireplace surround.</li>
+            <li>To supply and install approximately 35 sq. ft. of Schluter Ditra decoupling membrane for tile installation.</li>
+            <li>To install approximately 35 sq. ft. of homeowner supplied tile and grout.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Master Bathroom:</span>
+          <span class="scope__costs"><strong>Materials: $3,814.57</strong><span>Labour: $9,600 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of:
+              <ol>
+                <li>1. Existing bathroom tile floor \ baseboard</li>
+                <li>2. Existing vanity countertop</li>
+                <li>3. Mirror and bulkhead above vanity</li>
+                <li>4. Shower surround and walls</li>
+                <li>5. Bathroom accessories \ hardware \ toilet</li>
+              </ol>
+            </li>
+            <li>To supply and install all materials to frame out bathtub partition wall to fit 32&rdquo; W x 66&rdquo;L bathtub.</li>
+            <li>To install homeowner supplied 32&rdquo; W x 66&rdquo; (left hand drain) bathtub and overflow trim kit assembly.</li>
+            <li>To install homeowner supplied bathtub valve and trim.</li>
+            <li>To supply and install 12&rdquo;x20&rdquo; bathtub niche.</li>
+            <li>To supply and install Prova waterproof bathtub tile backer system within bathtub surround area.</li>
+            <li>To install approximately 85 sq. ft. of homeowner supplied tile and grout in bathtub surround.</li>
+            <li>To install homeowner supplied marble sills for niche in bathtub surround.</li>
+            <li>To supply and install silicone sealant in bathtub where required.</li>
+            <li>To supply and install all materials to make all drywall repairs in bathroom, and complete patching and sanding in bathroom to make paint ready.</li>
+            <li>To supply and install Schluter decoupling membrane on bathroom floor to accept tile.</li>
+            <li>To install approximately 65 sq. ft. of homeowner supplied bathroom floor tile &amp; grout.</li>
+            <li>To install homeowner supplied toilet.</li>
+            <li>To install homeowner supplied bathroom hardware (toilet paper holder, towel bar, etc).</li>
+            <li>To supply and install pine baseboard in bathroom.</li>
+            <li>To supply and install clear coat on installed baseboard.</li>
+            <li>To install homeowner supplied vanity faucets \ drains.</li>
+            <li>To supply and install black privacy lock and hinges on bathroom door.</li>
+            <li>To supply and install black vanity door \ drawer pulls.</li>
+            <li>To install homeowner supplied wall and ceiling paint in bathroom.</li>
+            <li>To install homeowner supplied bathtub curtain rod.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Master Bedroom:</span>
+          <span class="scope__costs"><strong>Materials: $1,882.67</strong><span>Labour: $1,920 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To supply and install all materials to frame in opening in bedroom wall for 48&rdquo; x 48&rdquo; window.</li>
+            <li>To supply and install 48&rdquo; x 48&rdquo; Farley casement window in white with Energy Star rating.</li>
+            <li>To supply and install all materials to waterproof exterior of window opening and insulate.</li>
+            <li>To supply and install brick molding and sealant on exterior of window.</li>
+            <li>To supply and install pine jambs and casings to interior of window.</li>
+            <li>To supply and install clear coat finish to pine jambs and casings.</li>
+            <li>To supply and install black privacy lock and hinges on bedroom door.</li>
+            <li>To install homeowner supplied paint on bedroom walls only.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Office:</span>
+          <span class="scope__costs"><strong>Materials: $286.88</strong><span>Labour: $960 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of select cabinets and shelving in office as discussed on site.</li>
+            <li>To supply and install all materials to patch drywall as necessary to make paint ready.</li>
+            <li>To supply and install black hardware (pulls, handles, hinges) on existing cabinet in office.</li>
+            <li>To supply and install black passage handle and hinges on office door.</li>
+            <li>To install homeowner supplied paint on office walls only.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Basement Rec Room:</span>
+          <span class="scope__costs"><strong>Materials: $160.54</strong><span>Labour: $1,920 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and reuse pine baseboards after flooring installation.</li>
+            <li>To install approximately 440 sq. ft. of homeowner supplied vinyl click flooring directly over existing laminate sheet flooring. Assumes existing floor is suitable for overlay installation and may need to be removed if found unsuitable at an additional cost.</li>
+            <li>To supply and install all materials to mud, sand and make textured front wall smooth and ready for paint.</li>
+            <li>To install homeowner supplied wall paint on front wall.</li>
+            <li>To supply and install black passage handles and hinges on furnace room doors.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Basement Bedroom #1:</span>
+          <span class="scope__costs"><strong>Materials: $613.47</strong><span>Labour: $1,920 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and reuse pine baseboards after flooring installation.</li>
+            <li>To remove and dispose of existing bifold closet door.</li>
+            <li>To supply and install 24&rdquo; x 80&rdquo; 6 panel pine door and door stop in place of existing bifold door.</li>
+            <li>To supply and install black passage handle and hinges on closet door.</li>
+            <li>To supply and install clear coat finish on pine closet door.</li>
+            <li>To install approximately 170 sq. ft. of homeowner supplied vinyl click flooring directly over existing laminate sheet flooring. Assumes existing floor is suitable for overlay installation and may need to be removed if found unsuitable at an additional cost.</li>
+            <li>To supply and install all materials to mud, sand and make textured front wall smooth and ready for paint.</li>
+            <li>To install homeowner supplied wall paint on front wall.</li>
+            <li>To supply and install black privacy lock handle and hinges on bedroom door.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Basement Bedroom #2:</span>
+          <span class="scope__costs"><strong>Materials: $1,824.26</strong><span>Labour: $2,880 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and reuse pine baseboards after flooring installation.</li>
+            <li>To remove and dispose of existing bifold closet door.</li>
+            <li>To supply and install 24&rdquo; x 80&rdquo; 6 panel pine door and door stop in place of existing bifold door.</li>
+            <li>To supply and install black passage handle and hinges on closet door.</li>
+            <li>To supply and install clear coat finish on pine closet door.</li>
+            <li>To install approximately 170 sq. ft. of homeowner supplied vinyl click flooring directly over existing laminate sheet flooring. Assumes existing floor is suitable for overlay installation and may need to be removed if found unsuitable at an additional cost.</li>
+            <li>To supply and install black privacy lock handle and hinges on bedroom door.</li>
+            <li>To remove existing pine wall section at window location and reinstall existing pine materials where condition allows. Reuse of materials is subject to removal condition and any additional material requirements will be billed as extra if necessary.</li>
+            <li>To supply and install 24&rdquo; x 36&rdquo; Farley casement window in white with Energy Star rating.</li>
+            <li>To supply and install all materials to waterproof exterior of window opening and insulate.</li>
+            <li>To supply and install brick molding and sealant on exterior of window.</li>
+            <li>To supply and install pine jambs and casings to interior of window.</li>
+            <li>To supply and install clear coat finish to pine jambs and casings.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Basement Bathroom:</span>
+          <span class="scope__costs"><strong>Materials: $983.36</strong><span>Labour: $2,400 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of:
+              <ol>
+                <li>1. Existing tile floor \ baseboard</li>
+                <li>2. Pedestal Sink</li>
+                <li>3. Toilet</li>
+              </ol>
+            </li>
+            <li>To supply and install Schluter decoupling membrane on bathroom floor to accept tile.</li>
+            <li>To install approximately 40 sq. ft. of homeowner supplied tile &amp; grout on bathroom floor.</li>
+            <li>To supply and install pine baseboard in bathroom.</li>
+            <li>To supply and install clear coat finish to baseboards.</li>
+            <li>To supply and install black privacy lock handle and hinges on bathroom door.</li>
+            <li>To install homeowner supplied wall paint on bathroom walls only.</li>
+            <li>To install homeowner supplied toilet in bathroom.</li>
+            <li>To install homeowner supplied pedestal sink in bathroom.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope">
+        <summary class="scope__summary">
+          <span class="scope__name">Basement Movie Room:</span>
+          <span class="scope__costs"><strong>Materials: $2,576.68</strong><span>Labour: $6,240 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <ul class="scope__bullets">
+            <li>To remove and dispose of:
+              <ol>
+                <li>1. Carpet</li>
+                <li>2. Millwork on walls as discussed on site</li>
+                <li>3. Railing</li>
+                <li>4. Partial fridge wall</li>
+                <li>5. Countertop on corner cabinet</li>
+              </ol>
+            </li>
+            <li>To supply and install all materials to frame a 8&rsquo; bench seat (extending existing bench) with plywood.</li>
+            <li>To supply and install all materials to frame in inset wall cabinet to accept shiplap.</li>
+            <li>To install homeowner supplied stain on bench.</li>
+            <li>To supply and install clear coat on bench seat.</li>
+            <li>To supply and install 8&rdquo; MDF shiplap on all walls (excludes bulkheads and ceilings).</li>
+            <li>To supply and install flat white baseboard.</li>
+            <li>To install homeowner supplied paint on MDF shiplap.</li>
+          </ul>
+        </div>
+      </details></li>
+
+      <li><details class="scope scope--optional">
+        <summary class="scope__summary">
+          <span class="scope__name scope__name--optional">Optional: Moving Bedroom #2, Master Bedroom, and Office Walls:</span>
+          <span class="scope__costs"><strong>Materials: $2,804.52</strong><span>Labour: $7,680 + HST</span><span class="scope__caret">▾</span></span>
+        </summary>
+        <div class="scope__body">
+          <div class="scope__note">All existing walls to be removed are assumed non-load bearing. Structural confirmation by others if required. Relocation of existing mechanicals (plumbing, vent stacks, HVAC, or electrical) discovered within walls is not included and must be completed by a licensed trade prior to framing.</div>
+          <ul class="scope__bullets">
+            <li>To remove and dispose of existing wall between Bedroom #2 and Master Bedroom.</li>
+            <li>To remove and dispose of existing wall between Master Bedroom and Office.</li>
+            <li>To remove and dispose of existing flooring in Bedroom #2 and Master Bedroom.</li>
+            <li>To supply and install framing to modify Bedroom #2 wall and Master Bedroom/Office wall layout (approx. 40&rdquo; adjustments as per design).</li>
+            <li>To supply and install drywall to new wall construction, including taping, mudding, sanding, and preparation to paint-ready finish.</li>
+            <li>To install homeowner paint on ceilings in Bedroom #2, Master Bedroom, and Office (wall paint provided in previous scopes of work).</li>
+            <li>To supply and install pine baseboards where required.</li>
+            <li>To supply and apply clear coat finish to installed pine baseboards.</li>
+            <li>To install approximately 380 sq. ft. of homeowner supplied flooring in Bedroom #2 and Master Bedroom.</li>
+          </ul>
+        </div>
+      </details></li>
+
+    </ul>
+  </div>
+</section>
+
+<!-- ───────────────  Homeowner Supplies  ─────────────── -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 class="section__title">Materials to be supplied by homeowner</h2>
+    </div>
+    <div class="panels">
+      <div class="panel">
+        <div class="panel__title">Front Entry way and Hallway:</div>
+        <ul class="panel__items">
+          <li>245 sq. ft. tile &amp; grout</li>
+          <li>Paint for accent shiplap wall</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Bedroom #1:</div>
+        <ul class="panel__items">
+          <li>Wall paint,</li>
+          <li>2 Window blinds</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Bedroom #2:</div>
+        <ul class="panel__items">
+          <li>Wall paint</li>
+          <li>Window blind</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Main Bathroom:</div>
+        <ul class="panel__items">
+          <li>100 sq. ft. shower wall tile &amp; grout</li>
+          <li>20 sq. ft. shower floor tile &amp; grout (2&rdquo;x2&rdquo; or smaller)</li>
+          <li>45 sq. ft. bathroom floor tile &amp; grout</li>
+          <li>Toilet</li>
+          <li>Vanity faucets \ drains x2</li>
+          <li>Shower valve and trim kit</li>
+          <li>Bathroom accessories (toilet paper holder \ towel bar \ etc)</li>
+          <li>Shower curtain rod</li>
+          <li>Wall &amp; ceiling paint</li>
+          <li>Marble thresholds for shower and niche x4 (96&rdquo; L)</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Kitchen:</div>
+        <ul class="panel__items">
+          <li>145 sq. ft. of floor tile &amp; grout</li>
+          <li>42 sq. ft. of backsplash tile &amp; grout</li>
+          <li>Kitchen island cabinets</li>
+          <li>Kitchen faucet &amp; drain assembly</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Fireplace:</div>
+        <ul class="panel__items">
+          <li>35 sq. ft. of fireplace tile &amp; grout</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Master bathroom:</div>
+        <ul class="panel__items">
+          <li>85 sq. ft. of bathtub surround tile &amp; grout</li>
+          <li>65 sq. ft. of bathroom floor tile &amp; grout</li>
+          <li>32&rdquo; x 66&rdquo; bathtub (left-hand drain)</li>
+          <li>Bathtub overflow/drain trim kit</li>
+          <li>Bathtub valve and trim kit</li>
+          <li>Toilet</li>
+          <li>Vanity faucets &amp; drains x2</li>
+          <li>Bathroom accessories (toilet paper holder \ towel bar \ etc)</li>
+          <li>Bathtub curtain rod</li>
+          <li>Wall and ceiling paint</li>
+          <li>Marble threshold for niche x1 (96&rdquo; L)</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Master bedroom:</div>
+        <ul class="panel__items">
+          <li>Wall paint</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Office:</div>
+        <ul class="panel__items">
+          <li>Wall paint</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Basement:</div>
+        <ul class="panel__items">
+          <li>780 sq. ft. of vinyl click flooring</li>
+          <li>Wall paint for front walls</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Basement Powder Bathroom:</div>
+        <ul class="panel__items">
+          <li>40 sq. ft. of floor tile &amp; grout</li>
+          <li>Toilet</li>
+          <li>Pedestal sink</li>
+          <li>Wall paint</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Basement Movie Room:</div>
+        <ul class="panel__items">
+          <li>Wall paint</li>
+          <li>Bench seat stain</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Optional: Moving bedroom walls:</div>
+        <ul class="panel__items">
+          <li>380 sq. ft. of flooring</li>
+          <li>Ceiling paint</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────  Terms & Conditions  ─────────────── -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 class="section__title">Terms &amp; Conditions</h2>
+    </div>
+    <ol class="terms-list">
+      <li>Upon accepting quote, Tender Loving Carpentry will confirm a start date, and will request the material cost of job. Upon completion of section of work a labour draw can be requested for that section of work.</li>
+      <li>Disposal costs include a $1,500 waste allowance for the overall project. Any disposal costs exceeding this allowance shall be billed additionally to the homeowner at cost.</li>
+      <li>Existing bifold door locations may contain visible screw holes or hardware marks within existing jambs and trim after removal. Repair or replacement of jamb material beyond included scope shall be additional if requested.</li>
+      <li>TLC has included pricing for interior door hardware, cabinet pulls, cabinet handles, and cabinet hinges as specified. These items may be removed from contract pricing if homeowner elects to supply.</li>
+      <li>Tile installation pricing is based on a standard tile layout and pattern. Specialty layouts including herringbone, intricate patterns, mosaics, feature strips, or accent installations shall be priced separately.</li>
+      <li>TLC will attempt to achieve flush flooring transitions where possible. Transition strips or reducers may be required depending on material thickness and shall be additional if required.</li>
+      <li>Quote assumes existing subfloor conditions are structurally sound and within acceptable tolerances for tile \ floor installation. Additional floor preparation, self-leveling, or subfloor repair beyond standard preparation shall be additional if required.</li>
+      <li>Quote assumes existing framing, plumbing rough-ins, and concealed conditions are in serviceable condition. Any concealed damage, rot, mold, structural deficiencies, or unforeseen repairs discovered during demolition shall be billed separately upon homeowner approval.</li>
+      <li>Window installation pricing includes framing new window opening, installation of supplied window, waterproofing, insulation, and standard trim work only. Any siding replacement, repair, exterior finishing, or additional weather barrier work beyond reuse of existing materials shall be additional if required.</li>
+      <li>Painting is limited to renovated areas specifically outlined within quote scope.</li>
+      <li>Exclusions include countertops, carpeting, and electrical work unless otherwise specified.</li>
+      <li>Any work outside the scope outlined above shall be treated as additional work and billed separately upon homeowner approval.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ───────────────  Grand Total  ─────────────── -->
+<div class="wrap">
+  <div class="grand-total">
+    <div class="grand-total__inner">
+      <h2 class="grand-total__title">Grand Total:</h2>
+      <div class="grand-total__rows">
+        <div class="grand-total__row">
+          <span class="grand-total__label">Materials:</span>
+          <span class="grand-total__value">$28,259.12</span>
+        </div>
+        <div class="grand-total__row">
+          <span class="grand-total__label">Labour:</span>
+          <span class="grand-total__value">$66,240.00 + HST</span>
+        </div>
+        <div class="grand-total__row grand-total__row--final">
+          <span class="grand-total__label">Total:</span>
+          <span class="grand-total__value">$94,499.12 + HST on Labour</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ───────────────  Acceptance & Agreement  ─────────────── -->
+<section class="section" id="agreement">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 class="section__title">Acceptance &amp; Agreement</h2>
+    </div>
+
+    <p class="agreement__lead">By signing below, the homeowner accepts the scope of work, materials, labour, and Terms &amp; Conditions outlined above. Once signed by both parties, this quote constitutes the contract between Tender Loving Carpentry and the homeowner. Any changes to scope shall be treated as additional work and billed separately upon homeowner approval.</p>
+
+    <div class="agreement__optional">
+      <div class="agreement__optional-title">Optional Section Selection — Moving Bedroom #2, Master Bedroom, and Office Walls:</div>
+      <div class="agreement__option">
+        <span class="agreement__check">[  ]</span>
+        <span class="agreement__option-label">INCLUDED</span>
+        <span class="agreement__arrow">→</span>
+        <span class="agreement__option-total">Total: $94,499.12 + HST on Labour</span>
+      </div>
+      <div class="agreement__option">
+        <span class="agreement__check">[  ]</span>
+        <span class="agreement__option-label">NOT INCLUDED</span>
+        <span class="agreement__arrow">→</span>
+        <span class="agreement__option-total">Total: $84,014.60 + HST on Labour</span>
+      </div>
+    </div>
+
+    <div class="agreement__signatures">
+      <div class="agreement__signer">
+        <div class="agreement__role">Homeowner:</div>
+        <div class="agreement__line-row">
+          <span class="agreement__line-label">Signature:</span>
+          <span class="agreement__line"></span>
+          <span class="agreement__line-label">Date:</span>
+          <span class="agreement__line agreement__line--short"></span>
+        </div>
+        <div class="agreement__printname">Print Name:&nbsp;&nbsp;Hilary Smee</div>
+      </div>
+
+      <div class="agreement__signer">
+        <div class="agreement__role">Contractor — Tender Loving Carpentry:</div>
+        <div class="agreement__line-row">
+          <span class="agreement__line-label">Signature:</span>
+          <span class="agreement__line"></span>
+          <span class="agreement__line-label">Date:</span>
+          <span class="agreement__line agreement__line--short"></span>
+        </div>
+        <div class="agreement__line-row">
+          <span class="agreement__line-label">Print Name:</span>
+          <span class="agreement__line"></span>
+        </div>
+      </div>
+    </div>
+
+    <p class="agreement__note">To accept: download the PDF below, sign and return.</p>
+  </div>
+</section>
+
+<!-- ───────────────  CTA  ─────────────── -->
+<div class="wrap">
+  <div class="cta">
+    <h2 class="cta__title">Ready to move forward?</h2>
+    <p class="cta__text">Download a printable PDF of this quote, or reach out with any questions about a section. Take your time — happy to revise.</p>
+    <div class="cta__buttons">
+      <a class="btn btn--primary" href="assets/Hilary-Smee-Cottage-Renovation-Quote.pdf" download>Download PDF Quote</a>
+      <a class="btn btn--secondary" href="mailto:tlcbarrie@gmail.com?subject=Re%3A%20Cottage%20Reno%20Quote%20%E2%80%94%201865%20North%20Muldrew%20Lake%20Road">Email Brent</a>
+    </div>
+  </div>
+</div>
+
+<!-- ───────────────  Footer  ─────────────── -->
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p class="site-footer__tagline">Every Home needs some TLC</p>
+    <p class="site-footer__details">
+      <strong>Tender Loving Carpentry</strong> — General contractor, Barrie, Ontario.<br>
+      WSIB &amp; general liability insured.<br>
+      Service area: Barrie · Orillia · Severn Bridge · Gravenhurst · Muskoka
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
