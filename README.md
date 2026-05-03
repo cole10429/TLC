@@ -12,10 +12,10 @@ https://cole10429.github.io/TLC/quotes/hilary-smee/
 
 ## GitHub Pages setup
 
-This repository is intended to publish from:
+This repository publishes with the custom workflow at `.github/workflows/deploy-pages.yml`. The workflow uploads this static directory to GitHub Pages:
 
 ```text
-main /docs
+docs/
 ```
 
 The deployable quote files live under:
